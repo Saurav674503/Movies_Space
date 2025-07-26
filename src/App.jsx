@@ -4,11 +4,27 @@ import RequestMovie from './Components/RequestMovie';
 import { useMemo } from 'react';
 
 const videos = [
-	{
-		src: 'https://drive.google.com/file/d/1QeEsqRlcoUxJqnwP1oI6ubiSMVS27vwO/preview',
-		title: 'Movie Space By NamasteCode',
+  {
+		src: 'https://dn721600.ca.archive.org/0/items/murder-2/Murder%20%232.ia.mp4',
+		title: 'Murder on the Orient Express',
 		poster:
-			'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=800&q=80',
+			'https://www.google.com/url?sa=i&url=https%3A%2F%2Fencrypted-tbn3.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcRR8Psrd5BV6GG6s7DdSCkTEg7xOL7eVXdIlxFvesF_IfIYfopb&psig=AOvVaw20pJXzPvY7LVbgkEiAiREt&ust=1753612656747000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCLivoraq2o4DFQAAAAAdAAAAABAE',
+		watched: 1200,
+		added: 1718000000000,
+	},
+  {
+		src: 'https://drive.google.com/file/d/1QeEsqRlcoUxJqnwP1oI6ubiSMVS27vwO/preview',
+		title: 'Murder 2',
+		poster:
+			'',
+		watched: 1200,
+		added: 1718000000000,
+	},
+	{
+		src: 'https://dn721603.ca.archive.org/0/items/murder-3-2013/Murder%203%20%282013%29.ia.mp4',
+		title: 'Murder 3',
+		poster:
+			'',
 		watched: 1200,
 		added: 1718000000000,
 	},

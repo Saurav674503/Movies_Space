@@ -4,11 +4,11 @@ const NavBar = () => (
   <nav className="w-full bg-gradient-to-r from-[#0f2027] via-[#2c5364] to-[#232526] shadow-xl fixed top-0 left-0 z-50 backdrop-blur-sm bg-opacity-90 rounded-b-2xl">
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
       <div className="flex items-center justify-between">
-        <div className="flex items-center gap-3">
+        <div className="flex  items-center gap-3">
           <img 
             src="/logo.png" 
             alt="NamasteCode" 
-            className="h-8 w-auto sm:h-10 transform transition-transform hover:scale-110 duration-300" />
+            className="h-8 w-auto rounded-xl  sm:h-10 transform transition-transform hover:scale-110 duration-300" />
           <div className="flex flex-col">
             <span className="text-lg sm:text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-500">
               NamasteCode
